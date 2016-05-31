@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount Searchjoy::Engine, at: "admin/searchjoy"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
